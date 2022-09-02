@@ -4,7 +4,7 @@ pragma solidity 0.8.1;
 import "bsc-library/contracts/BEP20.sol";
 import "./MindchainSwapToken.sol";
 
-// SyrupBar with Governance.
+
 contract MINDBRO is BEP20("MINDBro Token", "MINBRO") {
     /// @dev Creates `_amount` token to `_to`. Must only be called by the owner (MasterBrain ).
     function mint(address _to, uint256 _amount) public onlyOwner {
