@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.6.12;
+pragma solidity 0.8.1;
 
 import "bsc-library/contracts/BEP20.sol";
 import "./MindchainSwapToken.sol";
